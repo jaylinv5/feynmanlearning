@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/model"
-	"github.com/sanaikang/feynman-learning-platform/internal/middleware"
-	"github.com/sanaikang/feynman-learning-platform/internal/service"
+	"github.com/jaylinv5/feynmanlearning/internal/model"
+	"github.com/jaylinv5/feynmanlearning/internal/middleware"
+	"github.com/jaylinv5/feynmanlearning/internal/service"
 )
 
 // KnowledgePointController 知识点控制器

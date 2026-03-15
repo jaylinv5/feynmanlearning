@@ -13,9 +13,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-contrib/cors"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/controller"
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/config"
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/database"
+	"github.com/jaylinv5/feynmanlearning/internal/controller"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/config"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/database"
 )
 
 func main() {

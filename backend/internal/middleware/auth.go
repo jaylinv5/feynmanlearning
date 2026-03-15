@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/model"
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/jwt"
+	"github.com/jaylinv5/feynmanlearning/internal/model"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/jwt"
 )
 
 // AuthMiddleware JWT认证中间件

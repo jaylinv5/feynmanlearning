@@ -6,7 +6,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/config"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/config"
 )
 
 // CustomClaims 自定义JWT声明

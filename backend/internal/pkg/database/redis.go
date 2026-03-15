@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-redis/redis/v8"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/config"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/config"
 )
 
 // RedisClient 全局Redis客户端

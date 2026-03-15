@@ -5,8 +5,8 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/model"
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/database"
+	"github.com/jaylinv5/feynmanlearning/internal/model"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/database"
 )
 
 // KnowledgePointRepository 知识点仓库

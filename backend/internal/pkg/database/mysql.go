@@ -9,7 +9,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/pkg/config"
+	"github.com/jaylinv5/feynmanlearning/internal/pkg/config"
 )
 
 // DB 全局数据库实例

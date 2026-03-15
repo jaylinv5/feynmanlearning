@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sanaikang/feynman-learning-platform/internal/model"
-	"github.com/sanaikang/feynman-learning-platform/internal/repository"
+	"github.com/jaylinv5/feynmanlearning/internal/model"
+	"github.com/jaylinv5/feynmanlearning/internal/repository"
 )
 
 // KnowledgePointService 知识点服务
