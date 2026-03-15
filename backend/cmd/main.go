@@ -14,7 +14,6 @@ import (
 	"github.com/gin-contrib/cors"
 
 	"github.com/sanaikang/feynman-learning-platform/internal/controller"
-	"github.com/sanaikang/feynman-learning-platform/internal/middleware"
 	"github.com/sanaikang/feynman-learning-platform/internal/pkg/config"
 	"github.com/sanaikang/feynman-learning-platform/internal/pkg/database"
 )
