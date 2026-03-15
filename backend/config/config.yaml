@@ -1,0 +1,49 @@
+server:
+  port: 8080
+  mode: debug
+  read_timeout: 10
+  write_timeout: 10
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: feynman
+  username: feynman
+  password: feynman123
+  charset: utf8mb4
+  max_open_conns: 100
+  max_idle_conns: 20
+  conn_max_lifetime: 3600
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: feynman123
+  db: 0
+  pool_size: 100
+  min_idle_conns: 10
+
+jwt:
+  secret: feynman-learning-platform-secret-key
+  expire_hour: 24 * 7
+
+ai:
+  provider: tongyi
+  api_key: your-api-key
+  endpoint: https://dashscope.aliyuncs.com/api/v1
+  model: qwen-max
+  timeout: 30
+
+log:
+  level: info
+  path: ./logs
+  max_size: 100
+  max_backups: 10
+  max_age: 30
+
+minio:
+  endpoint: 127.0.0.1:9000
+  access_key: minioadmin
+  secret_key: minioadmin
+  bucket: feynman
+  use_ssl: false
