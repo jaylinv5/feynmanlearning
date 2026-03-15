@@ -1,7 +1,5 @@
 package model
 
-import "time"
-
 // KnowledgePoint 知识点模型
 type KnowledgePoint struct {
 	BaseModel
