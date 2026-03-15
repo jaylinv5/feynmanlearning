@@ -1,4 +1,4 @@
-module github.com/sanaikang/feynman-learning-platform
+module github.com/jaylinv5/feynmanlearning
 
 go 1.22
 
