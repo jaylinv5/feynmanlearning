@@ -1,5 +1,7 @@
 package model
 
+import "time"
+
 // User 用户模型
 type User struct {
 	BaseModel
